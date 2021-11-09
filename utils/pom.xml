@@ -55,6 +55,16 @@
             <version>6.11.0</version>
             <scope>test</scope>
         </dependency>
+		<dependency>
+		  <groupId>io.jooby</groupId>
+		  <artifactId>jooby-netty</artifactId>
+		  <version>2.11.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>ch.qos.logback</groupId>
+		  <artifactId>logback-classic</artifactId>
+		  <version>1.2.6</version>
+		</dependency>
         <!-- Mock objects to simulate non existing artefacts (Step III.8.C)-->
         <dependency>
             <groupId>org.mockito</groupId>
